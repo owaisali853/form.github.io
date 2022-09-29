@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="div1" id="red" >
+
+    </div>
+    <br>
+    <button onclick="document.getElementById('red').style.borderRadius = '150px'"  class="circle">click for  circle</button>
+    <br><br>
+    <form action="get" onsubmit="return Validate()" name="myForm">
+
+        <label id="" for="">First Name and last Name:</label>
+        <input  required type="text" name="Name" id="name" placeholder="Enter Your First Name & Last Name"> <br><br>
+        
+        <label for="">Contact Number</label>
+        <input id="name1"  name="num" type="number" placeholder="Enter Your Contact Number"><br><br>
+        <label for="">Email:</label>
+        <input id="name2" name="email" type="text" placeholder="Enter Your Email"> <br><br>
+        <label for="">Password</label>
+        <input type="password"  id="name3" placeholder="Enter Your Password"> <br> <br>
+        <label for="">Zip Code:</label>
+        <input name="Zipcode" id="name4" type="number" placeholder="Enter Your 5 digit Zipcode">
+        <br>                                                                                <br>
+       <input type="submit" name="" id="">
+
+    </form>
+     
+    
+    <script src="app.js"></script>
+</body>
+</html>
